@@ -32,7 +32,7 @@ Este proyecto permite enviar preguntas a una instancia local de LM Studio median
 
 ```bash
 pip install -r requirements.txt
-
+```
 ---
 
 ## CONFIGURACIÓN
@@ -46,6 +46,7 @@ Edita el archivo `config.json` para personalizar el comportamiento del cliente:
   "speech_rate": 150,
   "supported_languages": ["es", "en"]
 }
+```
 ---
 
 ## EJECUCIÓN
@@ -54,3 +55,4 @@ Para ejecutar la aplicación, asegúrate de tener LM Studio iniciado localmente 
 
 ```bash
 python main.py
+```
