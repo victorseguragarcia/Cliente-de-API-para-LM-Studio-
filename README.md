@@ -1,6 +1,5 @@
 # Crear el archivo README.md con formato adecuado para GitHub
 
-readme_content = """\
 # CLIENTE DE API PARA LM STUDIO CON SOPORTE DE VOZ
 
 Este proyecto permite enviar preguntas a una instancia local de LM Studio mediante una interfaz asíncrona y con soporte para entrada y salida por voz. Utiliza reconocimiento de voz, síntesis de texto a voz y llamadas a la API local de LM Studio.
@@ -24,6 +23,7 @@ Este proyecto permite enviar preguntas a una instancia local de LM Studio median
 - `requirements.txt`: Lista de dependencias necesarias.
 
 ---
+![Captura de pantalla 2025-05-11 163322](https://github.com/user-attachments/assets/e65774e2-a9a0-46bf-9dae-45a67d0826e1)
 
 ## INSTALACIÓN
 
