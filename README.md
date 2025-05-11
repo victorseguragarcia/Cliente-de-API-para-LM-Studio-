@@ -1,7 +1,7 @@
-Cliente de API para LM Studio con soporte de voz
-Este proyecto permite enviar preguntas a una instancia local de LM Studio mediante una interfaz asíncrona y con soporte para entrada y salida por voz. Utiliza reconocimiento de voz, síntesis de texto a voz y llamadas a la API de LM Studio.
+CLIENTE DE API PARA LM STUDIO CON SOPORTE DE VOZ
+Este proyecto permite enviar preguntas a una instancia local de LM Studio mediante una interfaz asíncrona y con soporte para entrada y salida por voz. Utiliza reconocimiento de voz, síntesis de texto a voz y llamadas a la API local de LM Studio.
 
-Características
+CARACTERÍSTICAS
 Envío de preguntas a LM Studio mediante API local.
 
 Caché de respuestas para evitar peticiones repetidas.
@@ -10,27 +10,27 @@ Reconocimiento de voz con SpeechRecognition.
 
 Conversión de texto a voz con pyttsx3.
 
-Configuración flexible mediante archivo JSON.
+Configuración flexible mediante archivo config.json.
 
-Archivos principales
+ARCHIVOS PRINCIPALES
 api_client.py: Cliente asíncrono para interactuar con LM Studio.
 
 config.json: Archivo de configuración general.
 
 requirements.txt: Lista de dependencias necesarias.
 
-Instalación
+INSTALACIÓN
 Clona el repositorio o descarga los archivos en tu máquina local.
 
-Instala las dependencias con pip:
+Instala las dependencias necesarias ejecutando:
 
 bash
 Copiar
 Editar
 pip install -r requirements.txt
-Asegúrate de tener LM Studio ejecutándose en la dirección definida en el archivo config.json.
+Asegúrate de tener LM Studio ejecutándose en la URL configurada en config.json.
 
-Configuración
+CONFIGURACIÓN
 El archivo config.json permite ajustar distintos parámetros de ejecución:
 
 json
@@ -42,10 +42,11 @@ Editar
   "speech_rate": 150,
   "supported_languages": ["es", "en"]
 }
-model_name: Nombre del modelo (informativo).
+model_name: Nombre del modelo que se desea usar (informativo).
 
-lm_studio_api_url: URL de la API local de LM Studio.
+lm_studio_api_url: URL del servidor local de LM Studio.
 
-speech_rate: Velocidad del habla para la salida de voz.
+speech_rate: Velocidad de lectura del sintetizador de voz.
 
-supported_languages: Idiomas soportados para entrada por voz.
+supported_languages: Idiomas soportados para el reconocimiento de voz.
+
