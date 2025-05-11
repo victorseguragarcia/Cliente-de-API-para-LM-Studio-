@@ -33,3 +33,16 @@ Este proyecto permite enviar preguntas a una instancia local de LM Studio median
 ```bash
 pip install -r requirements.txt
 
+---
+
+## CONFIGURACIÓN
+
+Edita el archivo `config.json` para personalizar el comportamiento del cliente:
+
+```json
+{
+  "model_name": "tiny",
+  "lm_studio_api_url": "http://localhost:1234/v1/chat/completions",
+  "speech_rate": 150,
+  "supported_languages": ["es", "en"]
+}
