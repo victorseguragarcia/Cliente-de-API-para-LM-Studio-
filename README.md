@@ -1,4 +1,4 @@
-# Crear el archivo README.md con formato adecuado para GitHub
+
 
 # CLIENTE DE API PARA LM STUDIO CON SOPORTE DE VOZ
 
