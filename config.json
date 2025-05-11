@@ -1,0 +1,6 @@
+{
+    "model_name": "tiny",
+    "lm_studio_api_url": "http://localhost:1234/v1/chat/completions",
+    "speech_rate": 150,
+    "supported_languages": ["es", "en"]
+}
