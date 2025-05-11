@@ -46,3 +46,11 @@ Edita el archivo `config.json` para personalizar el comportamiento del cliente:
   "speech_rate": 150,
   "supported_languages": ["es", "en"]
 }
+---
+
+## EJECUCIÓN
+
+Para ejecutar la aplicación, asegúrate de tener LM Studio iniciado localmente y luego corre el archivo principal con:
+
+```bash
+python main.py
